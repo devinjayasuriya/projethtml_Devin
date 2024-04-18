@@ -1,0 +1,42 @@
+body {
+    background: rgb(2, 32, 44);
+    color: white;
+}
+
+h3 {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+main {
+    margin: 50px;
+}
+
+main, article, header, h1 {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    text-transform: none;
+    line-height:11px;
+}
+
+b {
+    color: aqua;
+}
+
+
+header, nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 8%;
+}
+
+.fa-linkedin, .fa-instagram, .fa-github {
+    color: white;
+}
